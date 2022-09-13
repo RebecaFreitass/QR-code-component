@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.main{
+    width: 17rem;
+    margin: 3rem auto 0;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.main img{
+    width: 17rem;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+article{
+    margin-top: 1rem;
+}
+article h2{
+    text-align: center;
+    font-size: 0.9rem;
+}
+article p{
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 0.8rem;
+    text-align: center;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 1rem;
+}
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+ }
