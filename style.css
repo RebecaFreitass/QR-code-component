@@ -5,12 +5,21 @@
 body{
     background-color: hsl(212, 45%, 89%);
 }
+@font-face {
+    font-family: "Outfit-Regular";
+    src: url("Outfit/static/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family: "Outfit-Bold";
+    src: url("Outfit/static/Outfit-Bold.ttf");
+}
 .main{
     width: 17rem;
     margin: 3rem auto 0;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 1.5rem;
     padding: 1rem;
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 0.133);
 }
 .main img{
     width: 17rem;
@@ -25,13 +34,19 @@ article{
 }
 article h2{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
+    font-family: "Outfit-Bold";
+    color: hsla(217, 45%, 22%, 0.839);
 }
 article p{
     margin-top: 1rem;
     color: rgba(0, 0, 0, 0.493);
     font-size: 0.8rem;
     text-align: center;
+    font-family: "Outfit-Regular";
+    width: 80%;
+    margin:1rem auto;
+    
 }
 .attribution { 
     font-size: 11px; text-align: center; 
